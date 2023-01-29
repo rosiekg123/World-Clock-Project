@@ -4,5 +4,30 @@ body {
     rgb(32, 38, 57) 11.4%,
     rgb(63, 76, 119) 70.2%
   );
-  color: azure;
+  color: #252c43;
+}
+h1 {
+  font-family: "cinzel";
+  font-size: 50px;
+  text-align: center;
+}
+h2 {
+  font-family: "cinzel";
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background: azure;
+  padding: 30px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 255, 0.2);
+  border-radius: 20px;
+}
+
+select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 18px;
 }
