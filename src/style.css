@@ -8,20 +8,13 @@ body {
 }
 h1 {
   font-family: "cinzel";
-  font-size: 50px;
+  font-size: 55px;
   text-align: center;
 }
 h2 {
   font-family: "cinzel";
-}
-
-.container {
-  max-width: 600px;
-  margin: 0 auto;
-  background: azure;
-  padding: 30px;
-  box-shadow: 10px 10px 10px rgba(0, 0, 255, 0.2);
-  border-radius: 20px;
+  font-size: 40px;
+  margin: 0 0 10px;
 }
 
 select {
@@ -30,4 +23,47 @@ select {
   padding: 10px;
   border-radius: 5px;
   font-size: 18px;
+  font-family: "cinzel";
+}
+footer {
+  color: antiquewhite;
+  text-align: center;
+  font-family: "cinzel";
+}
+
+a {
+  color: aqua;
+}
+
+.container {
+  max-width: 600px;
+  font-family: "cinzel";
+  margin: 60px auto;
+  background: azure;
+  padding: 30px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 255, 0.2);
+  border-radius: 20px;
+}
+.date {
+  font-size: 20px;
+  opacity: 0.7;
+}
+.time {
+  font-size: 45px;
+  font-weight: bold;
+}
+.time small {
+  font-size: 20px;
+  line-height: 36px;
+  vertical-align: middle;
+}
+.city {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  padding: 20px 0;
+  border-bottom: 1px dashed rgba(32, 38, 57, 0.4);
+}
+.city:last-child {
+  border: none;
 }
