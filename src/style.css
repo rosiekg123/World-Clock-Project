@@ -67,3 +67,7 @@ a {
 .city:last-child {
   border: none;
 }
+.linktwo {
+  color: #252c43;
+  font-size: 20px;
+}
